@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="flame4ost.antisocialnetwork.ua">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UA">
+        <activity
+            android:name=".view.AddNewUserActivity"
+            android:exported="false"
+            android:label="@string/title_activity_add_new_user"
+            android:theme="@style/Theme.UA.NoActionBar" />
+        <activity
+            android:name=".view.UserListActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".view.DetailsUserActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".view.EditUserActivity"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

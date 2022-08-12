@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestShareInfo</string>
+    <string name="sendd">Відправити</string>
+    <string name="serr" />
+    <string name="sender">Send</string>
+    <string name="serre" />
+</resources>

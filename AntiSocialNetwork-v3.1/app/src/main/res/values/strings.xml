@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">AntiSocialNetwork</string>
+    <string name="nick_name">Nick Name</string>
+    <string name="status">Status :</string>
+    <string name="about_me">About me</string>
+    <string name="btnName">FOLLOW</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="social_score">Social score</string>
+    <string name="reach">Reach</string>
+    <string name="sharemeter">Sharemeter</string>
+    <string name="edit_profile">edit profile</string>
+    <string name="edit_your_profile">Edit your profile</string>
+    <string name="link_in_your_photo">Link in your photo</string>
+    <string name="change">change</string>
+    <string name="edit">edit</string>
+    <string name="status_details">Status</string>
+    <string name="title_activity_add_new_user">AddNewUserActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="add">ADD</string>
+    <string name="add_new_user">Add New User</string>
+</resources>

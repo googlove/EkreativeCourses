@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="365dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center|top"
+        android:text="@string/innfoo"
+        android:textColor="#F57C00"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onedollar"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/myname"
+        android:layout_width="392dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="@string/namee"
+        android:textColor="#EA3838"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/square"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.36" />
+
+    <ImageView
+        android:id="@+id/square"
+        android:layout_width="229dp"
+        android:layout_height="275dp"
+        android:layout_margin="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unnamed"
+        android:contentDescription="@string/saer" />
+
+    <ImageView
+        android:id="@+id/onedollar"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="100dp"
+        android:contentDescription="@string/eersss"
+        app:layout_constraintBottom_toBottomOf="@+id/square"
+        app:layout_constraintEnd_toEndOf="@+id/square"
+        app:layout_constraintStart_toStartOf="@+id/square"
+        app:layout_constraintTop_toTopOf="@+id/square"
+        app:srcCompat="@drawable/_95922_big" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

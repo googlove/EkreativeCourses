@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">AntiSocialNetwork</string>
+    <string name="nick_name">Nickname</string>
+    <string name="status">Status :</string>
+    <string name="about_me">About me</string>
+    <string name="btnName">FOLLOW</string>
+    <string name="posts">Posts</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="social_score">Social score</string>
+    <string name="reach">Reach</string>
+    <string name="sharemeter">Sharemeter</string>
+
+
+    <string name="photos1">+@photos!</string>
+    <string name="photos2">+@photos2</string>
+    <string name="photos3">+@photos3</string>
+    <string name="photos4">+@photos4</string>
+    <string name="photos5">+@photos5</string>
+    <string name="photos6">+@photos6</string>
+    <string name="photos7">+@photos7</string>
+    <string name="ava">+@ava</string>
+    <string name="ava1">+@ava!</string>
+    <string name="ava5">+@ava5</string>
+    <string name="ava4">+@ava4</string>
+    <string name="ava3">+ava3</string>
+    <string name="ava6">+@ava6</string>
+    <string name="statusg">Status</string>
+</resources>

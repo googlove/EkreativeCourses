@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MissionTeegardenB</string>
+    <string name="str_btn">Запустити флот !</string>
+    <string name="txt_2">Бюджет для U2 :</string>
+    <string name="txt_1">Бюджет для U1 :</string>
+    <string name="txt_sum">000000000$</string>
+</resources>
